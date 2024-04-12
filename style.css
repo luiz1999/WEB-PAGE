@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(CodePaper1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #0009;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 8vw, 6.5rem);
+    color: #fff;
+    font-family: 'Embed code', sans-serif;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-style: italic;
+    color: #fff;
+    font-family: 'Embed code', sans-serif;
+    font-weight: 400;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    font: bolder;
+    color:black;
+    background-color: lightgreen;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
